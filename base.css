@@ -1,0 +1,57 @@
+/* Подключение шрифта из Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* HTML */
+:root {
+	--accent: #5f5975;
+	--secondary: #32b5a4;
+	--yellow: #ebe691;
+}
+
+/* Вспомогающие классы */
+h2,
+h1 {
+	color: var(--secondary);
+}
+h1 {
+	font-size: 60px;
+}
+p {
+	font-size: 24px;
+}
+code {
+	border-radius: 12px;
+	padding: 16px;
+	background-color: var(--yellow);
+	white-space: pre;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+}
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: "Montserrat";
+	height: 100%;
+}
+html {
+	height: 100%;
+}
+.hero {
+	padding: 100px 0;
+}
+
+/* Контейнер */
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+	height: 100%;
+}
